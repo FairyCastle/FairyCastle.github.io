@@ -23,6 +23,13 @@
 					<input type="text" placeholder="输入你想知道的内容" required=""  value="search"/>
 					<input type="submit" value="" />
 			</div>
+			<script>
+                $( "span.menu" ).click(function() {
+                    $( ".navigation" ).slideToggle( "slow", function() {
+                        // Animation complete.
+                    });
+                });
+			</script>
 			<div class="clearfix"></div>
 		</div>
 		<div class="clearfix"></div>
